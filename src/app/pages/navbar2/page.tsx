@@ -22,7 +22,7 @@ function Navbar2() {
       <div className=' hidden md:block'>
 <div className='flex items-center  space-x-14 text-base'>
 
-<Link className='hover:underline' href="./">Home</Link>
+<Link className='hover:underline' href="../">Home</Link>
 <Link className='hover:underline' href="../pages/shop">Shop</Link>
 <Link className='hover:underline' href="../pages/blogdetail">Blog</Link>
 <Link className='hover:underline' href="../pages/contact">Contact</Link>
