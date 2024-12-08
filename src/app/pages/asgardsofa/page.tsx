@@ -1,21 +1,13 @@
 "use client"
-import React, { useState } from 'react'
+
 import { FaAngleRight } from "react-icons/fa";
 import { FaStar } from "react-icons/fa";
 import Footer from '../footer/page';
 import Navbar2 from '../navbar2/page';
-import Sidebar from '../sidebarrr/page';
 
-const Asgardsofa: React.FC = ()=> {
-    const [isSidebarOpen, setSidebarOpen] = useState(false);
 
-    const handleAddToCart = () => {
-      setSidebarOpen(true);
-    };
+const Asgardsofa = ()=> {
   
-    const handleCloseSidebar = () => {
-      setSidebarOpen(false);
-    };
 
   return (
     <>
@@ -74,8 +66,8 @@ const Asgardsofa: React.FC = ()=> {
                 <p>1</p>
                 <p>+</p>
                 </div>
-                <button  onClick={handleAddToCart} className='py-2 px-8 border-2 border-black rounded'>Add To Cart</button>
-                <Sidebar isOpen={isSidebarOpen} onClose={handleCloseSidebar} />
+                <button  className='py-2 px-8 border-2 border-black rounded'>Add To Cart</button>
+               
             </div>
         </div>
     </div>
